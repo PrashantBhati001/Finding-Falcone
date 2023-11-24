@@ -1,0 +1,28 @@
+.footer {
+    height: 20vh;
+    background-color:lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+}
+
+.Icons {
+    display: flex;
+    padding: 0 30px 0 0;
+    gap:25px;
+}
+
+
+.iconStyle{
+    color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer-text {
+        width: 40%;
+    }
+}
